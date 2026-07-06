@@ -1,76 +1,82 @@
-<!-- HEADER ANIMADO -->
+<!-- CABEÇALHO PREMIUM -->
 <div align="center">
-  <img src="https://i.imgur.com/8QeRk4E.gif" alt="Banner Animado python-2026" width="600">
-  <br>
+  <h1>⚡ Study-Python-2026 ⚡</h1>
   <p align="center">
     <b>Uma jornada de codificação progressiva, do zero ao domínio da arquitetura orientada a objetos.</b>
   </p>
-  <img src="https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Versão Python">
-  <img src="https://img.shields.io/badge/Status-Em%20Construção-orange?style=for-the-badge" alt="Status">
+
+  <!-- BADGES CONFIGURADAS COM GRADIENTES PROFISSIONAIS -->
+  <img src="https://img.shields.io/badge/Language-Python%203.10+-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python Core">
+  <img src="https://img.shields.io/badge/Paradigm-OOP%20%2F%20Functional-FFD43B?style=for-the-badge&logo=python&logoColor=3776AB" alt="Paradigmas">
+  <img src="https://img.shields.io/badge/Status-Em%20Constru%C3%A7%C3%A3o-orange?style=for-the-badge" alt="Status">
 </div>
 
 <br>
 
-<!-- DIVISÓRIA ANIMADA 1 -->
-<img src="https://i.imgur.com/kSj9s2T.gif" width="100%">
+<blockquote>
+  🚀 <b>Diretriz de Estudo:</b> "Consistência supera a intensidade. Este repositório documenta a evolução da lógica pura até a engenharia de software com POO."
+</blockquote>
 
-<br>
+---
 
-<!-- SEÇÃO VISÃO GERAL COM LAYOUT DE CARTÕES (USANDO TABELA INVISÍVEL) -->
-## 🔭 A Arquitetura do Conhecimento
+## 🧭 Painel de Controle de Aprendizado
 
-Este repositório não é apenas um dump de código; é uma documentação visual da minha evolução como desenvolvedor Python. A estrutura reflete um crescimento em espiral, onde cada conceito é a base para o próximo.
+Para criar o layout moderno de cartões sem quebrar imagens, estruturei as seções em uma grade técnica limpa e de alto contraste:
 
-<br>
-
-<table border="0">
+<table border="0" width="100%">
   <tr>
     <!-- COLUNA 1: FUNDAMENTOS -->
-    <td width="33%" align="center" valign="top">
-      <img src="https://i.imgur.com/vHqY7bM.png" alt="Cartão Fundamentos" width="100%">
-      <br><strong>03 - Estudos (Fundamentos)</strong><br>
-      A base sólida. Sintaxe, controle de fluxo, estruturas de dados e funções puras.
+    <td width="33%" align="left" valign="top" style="background-color: #161b22; border-radius: 8px; padding: 15px;">
+      <h3>📦 03 - Fundamentos</h3>
+      <hr>
+      <ul>
+        <li>Tipagem dinâmica & Variáveis</li>
+        <li>Estruturas condicionais (If/Else)</li>
+        <li>Laços de repetição (Loops)</li>
+        <li>Coleções nativas (Lists, Dicts)</li>
+      </ul>
     </td>
     <!-- COLUNA 2: POO -->
-    <td width="33%" align="center" valign="top">
-      <img src="https://i.imgur.com/S7WjGjE.png" alt="Cartão POO" width="100%">
-      <br><strong>Estruturação & POO</strong><br>
-      A virada de chave. Classes, Objetos, os 4 pilares (Abstração, Encapsulamento, Herança, Polimorfismo).
+    <td width="33%" align="left" valign="top" style="background-color: #161b22; border-radius: 8px; padding: 15px;">
+      <h3>🧬 Arquitetura POO</h3>
+      <hr>
+      <ul>
+        <li>Classes e Métodos</li>
+        <li>Os 4 Pilares Fundamentais</li>
+        <li>Tratamento de Exceções</li>
+        <li>Modularização Avançada</li>
+      </ul>
     </td>
     <!-- COLUNA 3: PROJETOS -->
-    <td width="33%" align="center" valign="top">
-      <img src="https://i.imgur.com/P4w58N7.png" alt="Cartão Projetos" width="100%">
-      <br><strong>01 - Projetos (Completos)</strong><br>
-      Aplicação prática. Onde a POO e os fundamentos se encontram para resolver problemas reais.
+    <td width="33%" align="left" valign="top" style="background-color: #161b22; border-radius: 8px; padding: 15px;">
+      <h3>🛠️ 01 - Projetos</h3>
+      <hr>
+      <ul>
+        <li>Resolução de Desafios (02)</li>
+        <li>Aplicações ponta a ponta</li>
+        <li>Integração de conceitos</li>
+        <li>Scripts prontos para execução</li>
+      </ul>
     </td>
   </tr>
 </table>
 
 <br>
-<br>
 
-<!-- DIVISÓRIA ANIMADA 2 -->
-<img src="https://i.imgur.com/kSj9s2T.gif" width="100%">
+---
 
-<br>
+## 📂 Visão Estrutural (Árvore)
 
-<!-- SEÇÃO ESTRUTURA FÍSICA -->
-## 📂 Mapa do Repositório
-
-Esta é a organização exata das pastas, projetada para navegação intuitiva:
+Esta é a organização interna do repositório:
 
 <details open>
-<summary><b>Clique para ver a árvore do projeto</b></summary>
+<summary><b>📂 Expandir mapa de diretórios</b></summary>
+<br>
 
 ```text
-python-2026/
-├── 📁 01 - Projetos (Completos)/      # Aplicações integradas e prontas
-│   ├── 🐍 python-crud-postgreSQL/                 # Exemplo de projeto POO
-│   └── ...
-├── 📁 02 - Desafios/                  # Lógica pura e algoritmos (HackerRank, LeetCode)
-├── 📁 03 - Estudos (Fundamentos)/     # A base e o core da POO
-│   ├── 🐍 01_variaveis.py
-│   ├── 🐍 08_classes_e_objetos.py
-│   └── ...
-├── 📄 .gitignore                      # Configuração Git
-└── 📄 README.md                       # Esta documentação
+Study-Python-2026/
+├── 📁 01 - Projetos (Completos)/      # Sistemas e scripts consolidados
+├── 📁 02 - Desafios/                  # Algoritmos e quebra-cabeças de lógica
+├── 📁 03 - Estudos (Fundamentos)/     # Da sintaxe básica ao Core da POO
+├── 📄 .gitignore                      # Configurações de ambiente
+└── 📄 README.md                       # Documentação principal do projeto
